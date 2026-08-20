@@ -34,6 +34,10 @@ El agente respondió:
 
 El agente respondió de forma útil y reconoció que los requisitos legales deben verificarse en fuentes oficiales.
 
+### Evidencia
+
+![Caso 1](images/caso-1.png)
+
 ---
 
 ## Caso 2 — Uso de herramienta externa
@@ -71,6 +75,10 @@ La aplicación recibió la llamada, ejecutó la función `obtener_clima_real` y 
 **PASS**
 
 El modelo no respondió directamente con un dato inventado: decidió utilizar una herramienta externa para obtener información actual.
+
+### Evidencia
+
+![Caso 2](images/caso-2.png)
 
 ---
 
@@ -110,6 +118,10 @@ El agente utilizó la herramienta para la información meteorológica y respondi
 
 Este caso demuestra que el agente puede resolver una pregunta que requiere más de una fuente de información.
 
+### Evidencia
+
+![Caso 3](images/caso-3.png)
+
 ---
 
 ## Caso 4 — Información ausente en RAG
@@ -136,6 +148,10 @@ El agente respondió:
 
 El agente reconoció correctamente que la información solicitada no estaba disponible en el conocimiento proporcionado y evitó generar requisitos migratorios potencialmente incorrectos.
 
+### Evidencia
+
+![Caso 4](images/caso-4.png)
+
 ---
 
 ## Caso 5 — Ciudad inexistente
@@ -161,6 +177,10 @@ El agente respondió:
 **PASS**
 
 El agente gestionó correctamente la ausencia de resultados de la API y evitó inventar información.
+
+### Evidencia
+
+![Caso 5](images/caso-5.png)
 
 ---
 
@@ -196,6 +216,10 @@ En una nueva ejecución, el agente respondió de forma controlada:
 **PASS**
 
 El fallo de la API fue detectado y transformado en una respuesta controlada para el usuario.
+
+### Evidencia
+
+![Caso 6](images/caso-6.png)
 
 ---
 
